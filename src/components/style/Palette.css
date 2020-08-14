@@ -1,0 +1,18 @@
+.palette {
+  height: 100vh;
+}
+.palette-colorBox {
+  height: min-content;
+  width: 80vw;
+  margin: 30px auto;
+  padding: 10px 30px 30px;
+  box-shadow: 1px 2px 5px cadetblue;
+  border-radius: 3px;
+}
+
+.palette-name {
+  color: rgb(53, 122, 124);
+  text-shadow: 1px 2px 2px rgb(184, 194, 194);
+  font-family: 'Courgette', cursive;
+  font-size: 2rem;
+}

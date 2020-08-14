@@ -1,0 +1,45 @@
+.colorBox {
+  display: inline-block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  cursor: pointer;
+}
+
+.copy-btn {
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -50px;
+  text-align: center;
+  outline: none;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.colorBox:hover .copy-btn {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.box-content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.colorBox {
+  margin-bottom: -3px;
+}
