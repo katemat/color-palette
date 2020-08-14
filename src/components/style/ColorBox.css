@@ -23,6 +23,7 @@
   color: white;
   text-transform: uppercase;
   opacity: 0;
+  cursor: pointer;
 }
 
 .colorBox:hover .copy-btn {

@@ -1,3 +1,23 @@
+# Color Palette Creator
+
+Live version (...link coming soon)
+
+## Technologies used
+
+- 🚀 React.js
+- CSS, JSX
+- npm:
+
+* [react-copy-to clipboard](https://www.npmjs.com/package/react-copy-to-clipboard)
+
+### User can:
+
+- 🎨 create new color palette
+- ✍ copy to clipboard
+- ␡ delete palette
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
