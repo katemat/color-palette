@@ -59,3 +59,36 @@
   z-index: 5;
   position: absolute;
 }
+
+.copy-msg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  transform: scale(0.1);
+  opacity: 0;
+  color: white;
+}
+
+.copy-msg.show {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 6;
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.2s;
+}
+
+.copy-msg h1 {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding: 1.25rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
